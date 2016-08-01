@@ -5,9 +5,54 @@
     <title>Catirau Mihail GitHub Projects</title>
     <meta name="description" content="Catirau Mihail's GitHub Projects main web page. Feel free">
     <meta name="keywords" content="github, project, html, css, js, php">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Catirau Mihail's GitHub Projects</h1>
-    
+    <div class="navbar">
+        <div class="navbar-container">
+            <h1 class="brand">CMProjects</h1>
+            <nav id="navigation" role="navigation" class="nav-list">
+                <a href="#" class="nav-item nav-link">Home</a>
+                <a href="#" class="nav-item nav-link">Projects</a>
+                <a href="#" class="nav-item nav-link">Contact</a>
+                <a href="#" class="nav-item nav-link">About me</a>
+            </nav>
+            <button data-collapse data-target="#navigation" class="toggle">
+                <span class="icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="container">
+            <div class="row">
+                <div id="content" class="col-md-9 col-xs-12 mar-bottom-15px">
+                    <div class="content-box">
+                        <h1>Catirau Mihail's GitHub Projects</h1>
+                        <p>Welcome to my GitHub Projects web page.</p>
+                        <p>To see all my project please check my repository at <a href="https://github.com/catiraumihail">https://github.com/catiraumihail</a>.</p>
+                    </div>
+                </div>
+                <div id="sidebar" class="col-md-3 col-xs-12 mar-bottom-15px">
+                    <div class="content-box">
+                        <div class="box-search">
+                            <div class="form-group">
+                                <label for="search">Search</label>
+                                <div class="input-group">
+                                    <input id="search" class="form-control" type="text" name="search" >
+                                    <button class="input-addon btn btn-default"><span class="ion-search"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="text-center">&copy; Catirau Mihail, 2016. All rights reserved.</p>
+    </div>
+    <script src="js/functions.js"></script>    
 </body>
 </html>
